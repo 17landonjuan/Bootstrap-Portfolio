@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <body background="assets/images/background.jpg"></body>
+<title>Profile</title>
 </head>
 
 <body>
@@ -24,12 +28,12 @@
                         <a class="navbar-brand" href="index.html">
                             <div class="container">
                                 <div class="row">
+                                    <div class="col-md-8">
+                                        <h1>Landon Evans</h1>
+                                        <h1 style="color: #4aaaa5;"></h1>
+                                    </div>
 
-                                    <h1>Landon Evans</h1>
-                                    <h1 style="color: #4aaaa5;"></h1>
                                 </div>
-
-                            </div>
 
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -37,26 +41,22 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">About <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
+                            <nav class="nav">
+
+                                <a class="nav-link" href="index.html">About</a>
+                                <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                                <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                        <div class="col-md-4">
                             <span class="navbar-text">
                                 Landon Evans, Master of his Domain
                             </span>
                         </div>
-                    </nav>
-
-                </nav>
             </div>
+            </nav>
+
+            </nav>
+        </div>
         </div>
     </header>
     <main>
@@ -68,13 +68,13 @@
             </div>
             <div class="About-Me">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                         <img src="assets/images/beach.jpg" alt="at the beach" class="img-thumbnail"
                             class="rounded float-left">
                     </div>
 
 
-                    <div class="col-md-8">
+                    <div class="col-sm-8">
                         <div class="About-Me">
                             <p>Some call me Landon, others...also call me Landon. Landon Evans born October 9th, 1990
                                 right
@@ -108,9 +108,11 @@
     </main>
 
     <footer>
+
         <footer class="footer mt-auto py-3">
-            <div class="container">
-                <span class="text-muted">Copyright 2019</span>
+
+            <div class="container" class="fixed-bottom" class="position-sticky" class="copyright">&copy;2019</div>
+
             </div>
         </footer>
     </footer>
